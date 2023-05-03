@@ -17,10 +17,10 @@ public class Car {
     @Column(name = "series")
     int series;
 
-    public Car(){
+    public Car() {
     }
 
-    public Car(String model, int series){
+    public Car(String model, int series) {
         this.model = model;
         this.series = series;
     }
